@@ -1,0 +1,8 @@
+# soc-dfir-toolkit currently relies only on the Python standard library
+# (argparse, csv, json, os, re, sys, dataclasses, datetime, typing).
+# No third-party packages are required to run log_parser.py,
+# ioc_extractor.py, or timeline.py.
+#
+# This file is kept so `pip install -r requirements.txt` works out of the
+# box, and so future scripts that add real dependencies (e.g. requests,
+# pandas) have a single place to declare them.

@@ -15,6 +15,24 @@ This toolkit is designed to help SOC Analysts and DFIR teams:
 
 ---
 
+## ⚙️ Setup
+
+Requires **Python 3.8+**. No third-party packages are needed today, but a
+`requirements.txt` and virtual environment are set up so the project stays
+easy to extend and safe to install from.
+
+```bash
+git clone https://github.com/onurtnc/soc-dfir-toolkit.git
+cd soc-dfir-toolkit
+
+python3 -m venv venv
+source venv/bin/activate      # Windows: venv\Scripts\activate
+
+pip install -r requirements.txt
+```
+
+---
+
 ## 📦 Toolkit Structure
 
 🔄 How to Run the Full DFIR Workflow
